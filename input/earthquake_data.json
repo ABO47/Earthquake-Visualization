@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1754865881000,
+    "generated": 1754866724000,
     "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-08-01&endtime=2025-08-11&minmagnitude=0.0&orderby=magnitude&limit=1000",
     "title": "USGS Earthquakes",
     "status": 200,
@@ -177,17 +177,17 @@
         "mag": 6.1,
         "place": "10 km SSW of Bigadi\u00e7, Turkey",
         "time": 1754844827318,
-        "updated": 1754864169547,
+        "updated": 1754866568788,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qznb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qznb&format=geojson",
-        "felt": 172,
+        "felt": 173,
         "cdi": 8.3,
         "mmi": 8.079,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 793,
+        "sig": 794,
         "net": "us",
         "code": "6000qznb",
         "ids": ",us6000qznb,usauto6000qznb,pt25222001,at00t0sexp,",
@@ -22975,6 +22975,46 @@
       "type": "Feature",
       "properties": {
         "mag": 2.84,
+        "place": "15 km SSW of River Road, Washington",
+        "time": 1754853841940,
+        "updated": 1754866502672,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62168906",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62168906&format=geojson",
+        "felt": 6,
+        "cdi": 2.5,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "uw",
+        "code": "62168906",
+        "ids": ",us6000qzp6,uw62168906,",
+        "sources": ",us,uw,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 66,
+        "dmin": 0.04764,
+        "rms": 0.19,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 15 km SSW of River Road, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.19766666666666,
+          47.93483333333333,
+          43.84
+        ]
+      },
+      "id": "uw62168906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.84,
         "place": "4 km S of P\u0101hala, Hawaii",
         "time": 1754399057010,
         "updated": 1754408348040,
@@ -23135,46 +23175,6 @@
       "type": "Feature",
       "properties": {
         "mag": 2.8,
-        "place": "48 km SSE of Glacier View, Alaska",
-        "time": 1754760423267,
-        "updated": 1754774952040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a5s1v00",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak025a5s1v00&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "025a5s1v00",
-        "ids": ",us6000qzi0,ak025a5s1v00,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.62,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 48 km SSE of Glacier View, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.2425,
-          61.4145,
-          16.7
-        ]
-      },
-      "id": "ak025a5s1v00"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
         "place": "2 km WNW of Beluga, Alaska",
         "time": 1754434767883,
         "updated": 1754445754040,
@@ -23250,6 +23250,46 @@
         ]
       },
       "id": "ak025a0x12u3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "48 km SSE of Glacier View, Alaska",
+        "time": 1754760423267,
+        "updated": 1754774952040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025a5s1v00",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak025a5s1v00&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "025a5s1v00",
+        "ids": ",us6000qzi0,ak025a5s1v00,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 48 km SSE of Glacier View, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.2425,
+          61.4145,
+          16.7
+        ]
+      },
+      "id": "ak025a5s1v00"
     },
     {
       "type": "Feature",
@@ -23655,46 +23695,6 @@
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "12 km NNW of Midland, Texas",
-        "time": 1754046976007,
-        "updated": 1754061227516,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025paajiq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2025paajiq&format=geojson",
-        "felt": 22,
-        "cdi": 3.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "tx",
-        "code": "2025paajiq",
-        "ids": ",tx2025paajiq,us6000qx9f,",
-        "sources": ",tx,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 54,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 35,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 12 km NNW of Midland, Texas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.128,
-          32.101,
-          8.3252
-        ]
-      },
-      "id": "tx2025paajiq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.7,
         "place": "6 km NW of P\u0101hala, Hawaii",
         "time": 1754156547300,
         "updated": 1754184007532,
@@ -23890,6 +23890,46 @@
         ]
       },
       "id": "us6000qxu0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "12 km NNW of Midland, Texas",
+        "time": 1754046976007,
+        "updated": 1754061227516,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025paajiq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2025paajiq&format=geojson",
+        "felt": 22,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "tx",
+        "code": "2025paajiq",
+        "ids": ",tx2025paajiq,us6000qx9f,",
+        "sources": ",tx,us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 54,
+        "dmin": 0,
+        "rms": 0.1,
+        "gap": 35,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 12 km NNW of Midland, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.128,
+          32.101,
+          8.3252
+        ]
+      },
+      "id": "tx2025paajiq"
     },
     {
       "type": "Feature",
@@ -24295,12 +24335,12 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "161 km S of False Pass, Alaska",
-        "time": 1754029169528,
-        "updated": 1754623289059,
+        "place": "77 km ENE of Tonopah, Nevada",
+        "time": 1754173500767,
+        "updated": 1754329922494,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qx7r",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx7r&format=geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00901990",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00901990&format=geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -24308,28 +24348,68 @@
         "status": "reviewed",
         "tsunami": 0,
         "sig": 104,
-        "net": "us",
-        "code": "6000qx7r",
-        "ids": ",ak0259sd5no8,us6000qx7r,",
-        "sources": ",ak,us,",
+        "net": "nn",
+        "code": "00901990",
+        "ids": ",nn00901990,",
+        "sources": ",nn,",
         "types": ",origin,phase-data,",
-        "nst": 10,
-        "dmin": 1.295,
-        "rms": 0.13,
-        "gap": 207,
+        "nst": 6,
+        "dmin": 0.502,
+        "rms": 0.1319,
+        "gap": 151.13,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 161 km S of False Pass, Alaska"
+        "title": "M 2.6 - 77 km ENE of Tonopah, Nevada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -163.5357,
-          53.4062,
-          10
+          -116.4863,
+          38.4415,
+          11.8
         ]
       },
-      "id": "us6000qx7r"
+      "id": "nn00901990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.6,
+        "place": "60 km NE of Nikolai, Alaska",
+        "time": 1754230675448,
+        "updated": 1754240346040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259vszg3c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak0259vszg3c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 104,
+        "net": "ak",
+        "code": "0259vszg3c",
+        "ids": ",us6000qxvl,ak0259vszg3c,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.42,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 60 km NE of Nikolai, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.4932,
+          63.3851,
+          8.8
+        ]
+      },
+      "id": "ak0259vszg3c"
     },
     {
       "type": "Feature",
@@ -24455,121 +24535,41 @@
       "type": "Feature",
       "properties": {
         "mag": 2.6,
-        "place": "17 km SSW of River Road, Washington",
-        "time": 1754853841568,
-        "updated": 1754865312111,
+        "place": "161 km S of False Pass, Alaska",
+        "time": 1754029169528,
+        "updated": 1754623289059,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qzp6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qzp6&format=geojson",
-        "felt": 6,
-        "cdi": 2.5,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qx7r",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx7r&format=geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
+        "sig": 104,
         "net": "us",
-        "code": "6000qzp6",
-        "ids": ",us6000qzp6,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 35,
-        "dmin": 0.204,
-        "rms": 0.45,
-        "gap": 44,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 17 km SSW of River Road, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.256,
-          47.9391,
-          40.477
-        ]
-      },
-      "id": "us6000qzp6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "77 km ENE of Tonopah, Nevada",
-        "time": 1754173500767,
-        "updated": 1754329922494,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00901990",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00901990&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "nn",
-        "code": "00901990",
-        "ids": ",nn00901990,",
-        "sources": ",nn,",
+        "code": "6000qx7r",
+        "ids": ",ak0259sd5no8,us6000qx7r,",
+        "sources": ",ak,us,",
         "types": ",origin,phase-data,",
-        "nst": 6,
-        "dmin": 0.502,
-        "rms": 0.1319,
-        "gap": 151.13,
+        "nst": 10,
+        "dmin": 1.295,
+        "rms": 0.13,
+        "gap": 207,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 77 km ENE of Tonopah, Nevada"
+        "title": "M 2.6 - 161 km S of False Pass, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.4863,
-          38.4415,
-          11.8
+          -163.5357,
+          53.4062,
+          10
         ]
       },
-      "id": "nn00901990"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "60 km NE of Nikolai, Alaska",
-        "time": 1754230675448,
-        "updated": 1754240346040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0259vszg3c",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak0259vszg3c&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "0259vszg3c",
-        "ids": ",us6000qxvl,ak0259vszg3c,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.42,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 60 km NE of Nikolai, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.4932,
-          63.3851,
-          8.8
-        ]
-      },
-      "id": "ak0259vszg3c"
+      "id": "us6000qx7r"
     },
     {
       "type": "Feature",
