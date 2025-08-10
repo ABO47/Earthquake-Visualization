@@ -1,0 +1,20 @@
+{
+  "time_period": {
+    "days": 10,
+    "description": "past 24 hours"
+  },
+  "earthquake_filters": {
+    "minmagnitude":0.0,
+    "orderby": "magnitude"
+  },
+  "api_settings": {
+    "format": "geojson",
+    "limit": 1000
+  },
+  "visualization": {
+    "title": "Global Earthquakes - Past 24 Hours (1.0+)",
+    "size_multiplier": 4,
+    "min_marker_size": 3,
+    "colorscale": "Viridis"
+  }
+}
