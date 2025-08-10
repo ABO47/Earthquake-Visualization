@@ -5,7 +5,7 @@ A Python application that creates an interactive world map of recent earthquakes
 
 ## Installation
 ```bash
-pip install plotly kagglehub
+pip install plotly
 ```
 
 ## Usage
