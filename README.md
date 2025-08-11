@@ -1,13 +1,13 @@
 
 # Earthquake Visualization
 
-A simple Python application that creates an interactive world map of recent earthquakes using real-time data from USGS.
+A simple Python software that creates an interactive world map of recent earthquakes using real-time data from USGS.
 
 ![map pic](assets/map.png)
 
 ## Installation
 ```bash
-pip install plotly
+pip install plotly requests
 ```
 
 ## Usage
